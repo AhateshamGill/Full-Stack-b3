@@ -1,0 +1,171 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.logo{
+  background-color: black;
+  padding: 2rem 0.8rem;
+}
+
+ul{
+   display: flex;
+   list-style: none;
+   text-transform: uppercase;
+   width: 70%;
+   justify-content: space-between;
+   font-size: 0.9rem;
+}
+
+li{
+  margin-right: 1rem;
+}
+
+button{
+  background-color: black;
+  color: goldenrod;
+  padding: 0.6rem 2.5rem 0.6rem 0.6rem ;
+  text-transform: uppercase;
+  height: 20%;
+}
+
+.front-page{
+  margin-top: 8rem;
+  background-image: url("https://www.pchotels.com/uploads/images/1_01644574008123.jpg");  
+  height: 60vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.intro{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.heading{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.referance{
+  text-align: right;
+}
+
+.image img{
+  width: 450px;
+}
+
+.intro2{
+  width: 70%;
+  margin: auto;
+  color: rgb(73, 69, 69);
+  text-align: center;
+}
+
+.gallery{
+  display: flex;
+  gap: 1rem;
+}
+
+.gallery-image img{
+  width: 100%;
+}
+
+.gallery-text{
+  background-color: lightgreen;
+  color: whitesmoke;
+  position: absolute;
+  height: 0%;
+  transition: all 0.7s;
+  overflow: hidden;
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image:hover .gallery-text{
+  opacity: 1;
+  height: 100%;
+}
+
+.gallery-image{
+  position: relative;
+}
+
+.hotel{
+  padding: 2rem;
+}
+.hotel h1{
+  text-align: center;
+}
+
+.hotel-images{
+  display: flex;
+  gap: 1rem;
+}
+
+.image2{
+  position: relative;
+}
+
+.card{
+  border: 2px solid black;
+  background-color: beige;
+  position: absolute;
+  color: peru;
+  bottom: -70%;
+  width: 70%;
+  padding: 0% 2rem;
+  left: 5%;
+  cursor: pointer;
+}
+
+.card:hover{
+  color: wheat;
+  background-color: black;
+}
+
+.card-button button{
+  color: goldenrod;
+  padding: 0.6rem 1.5rem;
+  font-size: .6rem;
+  background: transparent;
+  border: none;
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
+}
+
+.card-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-info{
+  text-align: center;
+}
+.card-button:hover button{
+  border: 1px solid greenyellow;
+  background-color: black;
+  cursor: pointer;
+}
